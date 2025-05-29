@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mumbi Personal Portfolio</title>
+    <style>
+       h2{
+           color:blue;
+       }
+       h3{
+           color:indianred;
+       }
+       body{
+           background-color: darkgrey;
+           font-family: sans-serif;
+       }
+       header{
+           background-color: blueviolet;
+           text-align: center;
+           color:white;
+       }
+       main{
+           max-width: 900px;
+           margin:50px auto;
+       }
+       footer{
+           background-color: darkgrey;
+           text-align:center;
+           color:purple;
+       }
+       nav ul{
+           list-style-type: none;
+       }
+       article{
+           margin:50px;
+           text-align:center;
+           color:blueviolet;
+           border:solid purple 2px;
+           padding:20px;
+       }
+       form{
+           background-color: blanchedalmond;
+           box-shadow:lightpink 2px 3px;
+           padding: 20px;
+       }
+       main{
+           max-width: 800px;
+
+       }
+       nav a{
+           text-decoration: none;
+           color:plum;
+           font-weight:bold;
+       }
+       nav li{
+           display:inline;
+           margin:20px;
+       }
+       button{
+           background-color: blanchedalmond;
+           border:grey 2px ;
+           border-radius: 5px;
+       }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Mumbi's personal portfolio</h1>
+    <p>A software developer</p>
+    <nav>
+       <ul>
+           <li><a href="#About Me">About </a></li>
+           <li><a href="#My Skills">Skills </a></li>
+           <li><a href="#My Projects">Projects</a></li>
+           <li><a href="#Contact">Contact</a></li>
+       </ul>
+    </nav>
+</header>
+<main>
+    <section id="About Me">
+        <h2>About me</h2>
+        <p>A software developer.</p>
+    </section>
+    <section id="My Skills">
+        <h2>My Skills</h2>
+        <p>Conversant in frontend and backend development.Some of the languages I am fluent in are as follows:</p>
+        <ul>
+            <li>HTML</li>
+             <li>CSS</li>
+             <li>Javascript</li>
+             <li>Python</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    <section id="My Projects">
+        <h2>My Projects</h2>
+        <article>
+            <h3>Hospital Management System</h3>
+        <p>Projects</p>
+        </article>
+        <article>
+            <h3>Restaurant Management System</h3>
+            <p>A project that entailed a restaurant booking system.</p>
+        </article>
+    </section>
+    <section id="Contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Full Name</label><br>
+            <input type="name" id="name" name="name" required placeholder="write your full name"><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" required placeholder="write your message here"></textarea><br>
+                <button type="submit">Send Message</button><br>
+        </form>
+    </section>
+    <footer>
+        <p>lets connect</p>
+        <a href="#"><img src="images/github.jpeg" width="40px"height="40px"></a>
+        <a href="#"><img src="images/linked.jpeg" width="40px"height="40px"></a>
+        <a href="#"><img src="images/twitter.jpeg" width="40px"height="40px"></a>
+        <p> 2025 mumbi portfolio</p>
+
+        <a></a>
+
+    </footer>
+</main>
+</body>
+</html>
