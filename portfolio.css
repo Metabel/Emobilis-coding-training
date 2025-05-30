@@ -1,0 +1,96 @@
+ h2{
+           color:blue;
+       }
+       h3{
+           color:indianred;
+       }
+       body{
+           background-color: darkgrey;
+           font-family: sans-serif;
+           margin:0px;
+           padding: 0px;
+       }
+       header{
+           background-color: blueviolet;
+           text-align: center;
+           color:white;
+           padding: 20px 30px;
+       }
+       main {
+           max-width: 800px;
+           margin: 20px auto;
+       }
+       footer{
+           background-color: blueviolet;
+           text-align:center;
+           color:purple;
+       }
+       nav ul{
+           list-style-type: none;
+       }
+       article{
+           margin:50px;
+           text-align:center;
+           color:blueviolet;
+           border:solid purple 2px;
+           padding:20px;
+           margin-bottom: 15px;
+       }
+       #AboutMe {
+           background-color: moccasin;
+           border-left: lightcyan;
+           /*margin:80px 80px 80px 80px ;*/
+       }
+       #MySkills{
+           background-color:moccasin;
+           border: cadetblue;
+           /*margin:60px 70px 80px 80px;*/
+       }
+       #MyProjects{
+           background-color: moccasin;
+           border-left: moccasin;
+           /*margin:80px 80px 80px 80px;*/
+       }
+       #contact{
+           background-color: chocolate;
+           border:moccasin ;
+           /*margin:80px 80px 80px 80px;*/
+       }
+       form{
+           background-color: blanchedalmond;
+
+           padding: 20px;
+           border-radius: 5px;
+           ;
+       }
+       label{
+           display: block;
+           font-weight: bold;
+       }
+       input[type=text],input[type=email],textarea{
+           width: 100%;
+           border:1px solid mediumpurple;
+           border-radius: 5px;
+       }
+       main {
+           max-width: 800px;
+       }
+
+       nav a{
+           text-decoration: none;
+           color:plum;
+           font-weight:bold;
+       }
+       nav li{
+           display:inline;
+           margin:20px;
+       }
+       button{
+           background-color: plum;
+           border:grey 2px ;
+           border-radius: 5px;
+       }
+       section{
+           border:2px solid red;
+           border-radius: 5px;
+       }
