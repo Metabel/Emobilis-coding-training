@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: lavender;
+    line-height:1.6;
+    font-family: sans-serif;
+}
+header{
+    background-color: lightcyan;
+    padding: 20px;
+}
+.logoarea{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    color:rebeccapurple;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background:magenta;
+}
+footer{
+    background-color: lightcyan;
+    padding: 20px;
+}
+
+h1{
+    color:blue;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+}
+h2{
+    color:purple;
+}
+h3{
+    color:purple;
+}
+contact{
+    color: blue;
+    text-align: center;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+}
+#companyname{
+    color:cadetblue;
+    font-weight: bold;
+}
+.hero{
+    color:blue;
+    text-align: center;
+    padding: 80px 30px;
+    background-color: moccasin;
+}
+.herocontent{
+    background-color: lavender;
+    padding:40px;
+    border-radius: 10px;
+}
+.programs
+{
+    background-color: aqua;
+    padding: 50px 20px;
+    text-align: center;
+}
+.program-box{
+    width: 300px;
+    display:inline-block;
+    margin:10px;
+    padding: 20px;
+    background-color: azure;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px purple;
+
+}
