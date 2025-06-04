@@ -35,13 +35,74 @@ nav ul li a{
 nav ul li a:hover{
     background:magenta;
 }
+.btn{
+    background-color: purple;
+    border-radius: 5px;
+    display :inline-block;
+    padding:12px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black
+}
+.btn:hover{
+    background-color: bisque;
+
+}
+.contact-section{
+    max-width: 600px;
+    margin:50px;
+    background-color: azure;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkkhaki;
+    text-align: left;
+}
+.contact-section h2{
+    text-align: center;
+}
+.contact-section p{
+    text-align: center;
+}
+.contact-form label{
+     display: block; 
+    color:blueviolet;
+    font-weight: bold;
+    margin-top:5px;
+}
+.contact-form.btn{
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: chocolate;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea{
+    width:100%;
+    padding :10px 12px;
+    border: 1px red;
+    margin-bottom: 10px;
+}
+.contact-form.btn :hover{
+    background-color: plum;
+}
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea{
+    border-color: lightcyan;
+    outline: none;
+}
 footer{
     background-color: lightcyan;
     padding: 20px;
+    text-align: center;
 }
 
 h1{
-    color:blue;
+    color:black;
     text-align: center;
 }
 p{
