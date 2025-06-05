@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color: lavender;
+    background-color: grey;
     line-height:1.6;
     font-family: sans-serif;
 }
@@ -154,4 +154,81 @@ contact{
     border-radius: 10px;
     box-shadow: 0 5px 6px purple;
 
+}
+.about-section{
+
+    background-color: antiquewhite;
+    max-width: 900px;
+    margin:20px auto;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow:0 0 8px moccasin;
+}
+.para{
+    width: 300px;
+    display:inline-block;
+    margin:10px;
+    padding: 20px;
+    background-color: azure;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px darkgoldenrod;
+}
+.why-choose-us{
+    background-color:whitesmoke;
+    padding:40px 20px;
+    margin:20px;
+}
+.why-container{
+    display: flex;
+    gap: 20px;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.why-box{
+    background-color: peru;
+    border-radius: 10px;
+    width: 200x;
+    text-align: center;
+    padding:20px;
+    box-shadow:0 0 8px purple; 
+    font-weight:bold;
+}
+.image-section{
+    padding:40px 20px;
+    text-align: center;
+}
+.image-box{
+    background-color:white;
+    width: 200px;
+    margin:15px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px;
+    box-shadow:0 0 8px lightcoral;
+
+}
+.image-box img{
+    width: 100%;
+    height:auto;
+    border-radius:8px;
+
+}
+.testimonial-section{
+    background-color: aliceblue;
+    padding:20px 40px;
+
+}
+.testimonial{
+    max-width:700px;
+    margin:20px auto;
+    padding:20px;
+    border-left:5px solid lightcoral;
+    box-shadow:0 0 6px purple;
+}
+.testimonial h4{
+    color:blue;
+    text-align: right;
 }
