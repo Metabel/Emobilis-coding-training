@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;
+            text-align: center;
+        }
+        @media(max-width:480px){
+            body{background-color: lightblue;}
+        }
+        header{
+            background-color: white;
+            color: yellow;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header1{
+            font-size:24px;
+        }
+        nav a{
+            color:black;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        @media(max-width:600px){
+            header{
+                flex-direction: column;
+                align-items: flex-start;
+                background-color:green;
+            }
+            nav a{
+            display: block;
+            color:black;
+            margin:5px 0;
+        }
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Responsive Background</h1>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    </header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facere dignissimos aspernatur doloribus tenetur atque ipsa totam, perspiciatis iusto laborum quaerat at autem, dolore in temporibus ea earum suscipit tempora?</p>
+</body>
+</html>
