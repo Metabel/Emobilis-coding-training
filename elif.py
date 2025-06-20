@@ -49,6 +49,8 @@ elif marks>=0 and marks<50:
   print("FAIL") 
 else:
  print("enter a valid numbe between 1 and 100")
-        
+   #a program that prompts users for two numbers then prints
+   #the larger or if they are equal
+    
               
     
